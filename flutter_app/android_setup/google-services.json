@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "129494083410",
+    "project_id": "auraalarm-6ddf1",
+    "storage_bucket": "auraalarm-6ddf1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:129494083410:android:927fab301fb9ee0a203c8b",
+        "android_client_info": {
+          "package_name": "com.robiulhasan.aura_alarm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "129494083410-sv3khcsv10l8cthmlsrfkgftrvk6l6p6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDO1-lQaumMGJ-O0AcfGp7vol0vSbgsnao"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "129494083410-sv3khcsv10l8cthmlsrfkgftrvk6l6p6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

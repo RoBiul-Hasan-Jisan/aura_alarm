@@ -1,0 +1,9 @@
+# secrets: never commit these
+.env
+**/.env
+**/serviceAccountKey.json
+*firebase-adminsdk*.json
+node_modules/
+backend/
+
+firebase_options.dart

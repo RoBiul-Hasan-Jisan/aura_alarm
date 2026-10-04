@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024"><defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2B1B73"/><stop offset=".55" stop-color="#150F3A"/><stop offset="1" stop-color="#0A0916"/></linearGradient>
+  <radialGradient id="glowO" cx=".5" cy="1" r=".75"><stop offset="0" stop-color="#FF9A3D" stop-opacity=".55"/><stop offset="1" stop-color="#FF9A3D" stop-opacity="0"/></radialGradient>
+  <radialGradient id="glowV" cx=".15" cy=".05" r=".7"><stop offset="0" stop-color="#8B5CF6" stop-opacity=".6"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/></radialGradient>
+  <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset=".5" stop-color="#EC4899"/><stop offset="1" stop-color="#FF9A3D"/></linearGradient>
+  <linearGradient id="bell" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7C3AED"/><stop offset="1" stop-color="#C026D3"/></linearGradient>
+  <linearGradient id="leg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#A855F7"/><stop offset="1" stop-color="#FF9A3D"/></linearGradient>
+  <linearGradient id="arc" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFB454"/><stop offset="1" stop-color="#FF8A3D"/></linearGradient>
+  <linearGradient id="face" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2A1B73"/><stop offset="1" stop-color="#3B2290"/></linearGradient>
+  <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFE08A"/><stop offset="1" stop-color="#FF9A3D"/></linearGradient>
+  <linearGradient id="wave1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9B7BFF"/><stop offset="1" stop-color="#5B3BD0"/></linearGradient>
+  <linearGradient id="wave2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6D4BE0"/><stop offset="1" stop-color="#2E1C87"/></linearGradient>
+</defs>
+<rect width="1024" height="1024" fill="url(#bg)"/><rect width="1024" height="1024" fill="url(#glowV)"/><rect width="1024" height="1024" fill="url(#glowO)"/><g transform="translate(102.4 92) scale(0.8)"><!-- alarm clock symbol, centred at 512,540 in a 1024 box -->
+<g id="sym">
+  <!-- sound arcs -->
+  <g fill="none" stroke="url(#arc)" stroke-width="30" stroke-linecap="round">
+    <path d="M150 420 Q104 520 150 620"/><path d="M84 380 Q20 520 84 660"/>
+    <path d="M874 420 Q920 520 874 620"/><path d="M940 380 Q1004 520 940 660"/>
+  </g>
+  <!-- legs -->
+  <g stroke="url(#leg)" stroke-width="44" stroke-linecap="round">
+    <path d="M380 842 L328 920"/><path d="M644 842 L696 920"/>
+  </g>
+  <!-- bells -->
+  <circle cx="318" cy="268" r="96" fill="url(#bell)"/>
+  <circle cx="706" cy="268" r="96" fill="url(#bell)"/>
+  <!-- top button -->
+  <rect x="470" y="150" width="84" height="56" rx="24" fill="url(#bell)"/>
+  <!-- face -->
+  <circle cx="512" cy="540" r="318" fill="url(#ring)"/>
+  <circle cx="512" cy="540" r="268" fill="url(#face)"/>
+  <clipPath id="faceclip"><circle cx="512" cy="540" r="268"/></clipPath>
+  <g clip-path="url(#faceclip)">
+    <!-- rays -->
+    <g stroke="#FFC76B" stroke-width="24" stroke-linecap="round">
+      <path d="M512 330 L512 372"/>
+      <path d="M392 366 L416 400"/><path d="M632 366 L608 400"/>
+      <path d="M318 456 L356 474"/><path d="M706 456 L668 474"/>
+    </g>
+    <!-- sun -->
+    <circle cx="512" cy="600" r="128" fill="url(#sun)"/>
+    <!-- waves -->
+    <path d="M200 610 C300 560 380 560 460 606 C540 652 620 656 700 604 C760 566 800 570 830 590 L830 860 L200 860 Z" fill="url(#wave1)"/>
+    <path d="M200 682 C290 640 370 640 450 680 C540 726 640 722 720 676 C770 648 810 652 830 664 L830 860 L200 860 Z" fill="url(#wave2)"/>
+  </g>
+  <!-- sparkle -->
+  <path d="M820 180 L832 218 L870 230 L832 242 L820 280 L808 242 L770 230 L808 218 Z" fill="#fff" opacity=".95"/>
+</g>
+</g></svg>
