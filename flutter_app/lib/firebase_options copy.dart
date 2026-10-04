@@ -1,7 +1,7 @@
 import 'package:firebase_core/firebase_core.dart' show FirebaseOptions;
 import 'package:flutter/foundation.dart' show defaultTargetPlatform, kIsWeb, TargetPlatform;
 
-/// Firebase project: 
+/// Firebase project: auraalarm-6ddf1
 /// Android values come from google-services.json, web values from the Firebase web app config.
 /// (These keys identify the project; they are not secrets. Security comes from Firebase Auth + the backend.)
 class DefaultFirebaseOptions {
@@ -31,7 +31,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey:'',
+    apiKey: '',
     appId: '',
     messagingSenderId: '',
     projectId: '',

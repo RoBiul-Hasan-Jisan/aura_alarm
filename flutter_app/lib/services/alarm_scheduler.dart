@@ -12,7 +12,7 @@ import '../screens/ring_screen.dart';
 import 'api_service.dart';
 import 'ringtone_player.dart';
 
-/// Everything the ring screen needs to know about a ringinFg alarm.
+/// Everything the ring screen needs to know about a ringing alarm.
 class RingInfo {
   final int settingsId;
   final String alarmId; // MongoDB id ('' for the test alarm)

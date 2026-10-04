@@ -40,6 +40,9 @@
    flutter clean && flutter pub get && flutter run -d <android-device>
 
 6. App icon and name (what people see after installing)
+   **Easiest:** from the `flutter_app` folder run `bash apply_icon.sh`. It copies the ready-made Android icons from
+   `android_res/` into the project and sets the app name to `Aura Alarm`. Then `flutter clean && flutter build apk --release`.
+   (The manual way, below, does the same thing.)
    ```bash
    flutter pub get
    dart run flutter_launcher_icons      # writes the logo into Android, iOS and web icon folders
